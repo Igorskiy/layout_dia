@@ -1,0 +1,33 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.heading {
+  position: absolute;
+  right: calc(50% - 123px);
+  top: calc(-160px - 0.5em);
+  font-size: 48px;
+  font-weight: 900;
+  color: #253757; }
+  @media (max-width: 1000px) {
+    .heading {
+      top: calc(-80px - 0.5em); } }
+
+/*# sourceMappingURL=heading.css.map */

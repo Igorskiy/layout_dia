@@ -1,0 +1,96 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.card {
+  position: absolute;
+  width: 240px;
+  height: 256px;
+  background: #fff;
+  -webkit-box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+          box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02); }
+  .card__number {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 48px;
+    text-transform: uppercase; }
+  .card__deco {
+    position: absolute;
+    top: 32px;
+    right: 96px;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px; }
+  .card__text {
+    padding: 0 32px 48px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #253757; }
+  .card_first {
+    left: 49%;
+    top: 20%; }
+  .card_first .card__number {
+    color: #56ccf2; }
+  .card_first .card__deco {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(#56ccf2), to(#56ccf2)), #c4c4c4;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56ccf2, #56ccf2), #c4c4c4;
+    opacity: 0.1; }
+  .card_second {
+    left: 76%;
+    top: 0; }
+  .card_second .card__number {
+    color: #fcc304; }
+  .card_second .card__deco {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+    opacity: 0.1; }
+  .card_third {
+    left: 49%;
+    top: 110%; }
+  .card_third .card__number {
+    color: #03d542; }
+  .card_third .card__deco {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(#03d542), to(#03d542)), #c4c4c4;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #03d542, #03d542), #c4c4c4;
+    opacity: 0.1; }
+  .card_fourth {
+    left: 76%;
+    top: 90%; }
+  .card_fourth .card__number {
+    color: #f25656; }
+  .card_fourth .card__deco {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656;
+    opacity: 0.1; }
+  @media (max-width: 1000px) {
+    .card {
+      position: static;
+      margin: auto;
+      margin-bottom: 20px; }
+      .card__deco {
+        position: relative;
+        left: calc(50% - 24px);
+        top: -32px; } }
+
+/*# sourceMappingURL=step-card.css.map */

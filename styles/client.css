@@ -1,0 +1,102 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.client {
+  position: relative;
+  padding-top: 240px;
+  padding-bottom: 58px;
+  padding-right: 32px;
+  padding-left: 32px;
+  text-align: center;
+  background-color: #fefefe;
+  -webkit-box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+          box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05); }
+  .client__decor {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    border-radius: 32px;
+    -webkit-transform: rotate(-65deg);
+            transform: rotate(-65deg);
+    left: calc(50% - 80px);
+    top: 93px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2; }
+  .client__photo {
+    position: absolute;
+    width: 64px;
+    height: 124px;
+    border-radius: 32px;
+    left: calc(50% - 32px);
+    top: 102px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .client__img {
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .client__feedback {
+    font-style: italic;
+    font-size: 14px;
+    margin: 0; }
+  .client__info {
+    font-size: 13px; }
+  .client__info::before {
+    content: "";
+    display: block;
+    margin: 31px auto;
+    width: 64px;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2; }
+  .client__name {
+    font-weight: 700;
+    margin: 0; }
+  .client__position {
+    font-weight: 800;
+    margin: 0;
+    color: #56ccf2; }
+  .client_second .client__decor {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304; }
+  .client_second .client__info::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304; }
+  .client_second .client__position {
+    color: #fcc304; }
+  .client_third .client__decor {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656; }
+  .client_third .client__info::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656; }
+  .client_third .client__position {
+    color: #f25656; }
+  @media (max-width: 1000px) {
+    .client {
+      margin-bottom: 30px; } }
+
+/*# sourceMappingURL=client.css.map */

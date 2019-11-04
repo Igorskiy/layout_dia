@@ -1,0 +1,47 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.tag {
+  font-size: 16px;
+  color: #56ccf2;
+  font-weight: 800;
+  line-height: 1.5;
+  left: 264px;
+  top: 165px;
+  margin-bottom: 19px; }
+  .tag__logo {
+    width: 21px;
+    margin-right: 16px; }
+  .tag__logo_sm {
+    display: inline-block;
+    margin-right: 48px;
+    width: 32px;
+    cursor: pointer; }
+  @media (max-width: 1000px) {
+    .tag {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+/*# sourceMappingURL=tag.css.map */

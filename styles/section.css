@@ -1,0 +1,65 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.section {
+  padding: 160px 80px; }
+  .section_features {
+    padding: 80px 20px;
+    padding-top: 0;
+    background-image: url(../images/features/backphoto.png);
+    background-color: #56ccf2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%; }
+  .section_cta {
+    background-image: url(../images/other/cta_background.png);
+    background-size: cover; }
+  .section_header {
+    padding-top: 48px;
+    padding-bottom: 0; }
+  .section_contact {
+    padding-top: 86px;
+    padding-bottom: 83px;
+    padding-left: 200px;
+    padding-right: 200px; }
+  @media (max-width: 1000px) {
+    .section_header {
+      padding-top: 48px; }
+    .section_features {
+      background-image: none; }
+    .section_testimonials {
+      text-align: center; }
+    .section_contact {
+      padding-left: 20px;
+      padding-right: 20px; } }
+  @media (max-width: 1024px) {
+    .section {
+      padding: 80px 20px; }
+      .section_header {
+        padding-top: 48px;
+        padding-left: 80px; }
+      .section_features {
+        padding-top: 0; }
+      .section_contact {
+        padding-left: 100px;
+        padding-right: 100px; } }
+
+/*# sourceMappingURL=section.css.map */

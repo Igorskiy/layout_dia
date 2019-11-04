@@ -1,0 +1,59 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.cta__title {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+  color: #253757;
+  margin-bottom: 57px; }
+
+.cta__info {
+  display: inline-block;
+  width: 754px;
+  height: 72px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-left: calc(50% - 377px);
+  color: #334563;
+  margin-bottom: 55px;
+  text-align: center; }
+
+.cta__button {
+  display: block;
+  margin-left: calc(50% - 113px); }
+
+@media (max-width: 1000px) {
+  .cta {
+    text-align: center; }
+    .cta__title {
+      font-size: 24px; }
+    .cta__info {
+      margin: auto;
+      text-align: center;
+      width: 377px;
+      height: 36px;
+      margin-bottom: 20px; }
+    .cta__button {
+      margin: auto; } }
+
+/*# sourceMappingURL=cta.css.map */

@@ -1,0 +1,36 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.intro {
+  position: relative;
+  width: 742px;
+  left: calc(50% - 371px);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #253757; }
+  @media (max-width: 1000px) {
+    .intro {
+      width: 371px;
+      left: calc(50% - 185.5px);
+      text-align: center; } }
+
+/*# sourceMappingURL=intro.css.map */

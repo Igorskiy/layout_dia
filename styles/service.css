@@ -1,0 +1,44 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.service {
+  padding: 0 25px; }
+  .service__photo {
+    width: 160px; }
+  .service__title {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    color: #253757; }
+  .service__descrtiption {
+    font-size: 16px;
+    color: #334563; }
+  @media (max-width: 1000px) {
+    .service__photo {
+      display: block;
+      margin: auto; } }
+  @media (max-width: 1024px) {
+    .service__title {
+      margin: 0; } }
+
+/*# sourceMappingURL=service.css.map */

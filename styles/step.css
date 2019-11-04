@@ -1,0 +1,38 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.steps {
+  position: relative; }
+  .steps__info {
+    max-width: 362px;
+    max-height: 168px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #334563; }
+  @media (max-width: 1000px) {
+    .steps {
+      text-align: center; }
+      .steps__info {
+        margin: auto; }
+      .steps__title {
+        margin-bottom: 42px; } }
+
+/*# sourceMappingURL=step.css.map */

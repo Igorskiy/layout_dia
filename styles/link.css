@@ -1,0 +1,32 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.link {
+  color: #253757;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+  .link:hover {
+    color: #fcc304; }
+  .link_navbar {
+    color: #fff; }
+
+/*# sourceMappingURL=link.css.map */
