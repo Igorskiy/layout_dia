@@ -53,8 +53,7 @@ input {
   .card_first .card__number {
     color: #56ccf2; }
   .card_first .card__deco {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(#56ccf2), to(#56ccf2)), #c4c4c4;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56ccf2, #56ccf2), #c4c4c4;
+    background: #56ccf2;
     opacity: 0.1; }
   .card_second {
     left: 76%;
@@ -62,8 +61,7 @@ input {
   .card_second .card__number {
     color: #fcc304; }
   .card_second .card__deco {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+    background: #fcc304;
     opacity: 0.1; }
   .card_third {
     left: 49%;
@@ -71,8 +69,7 @@ input {
   .card_third .card__number {
     color: #03d542; }
   .card_third .card__deco {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left bottom, left top, from(#03d542), to(#03d542)), #c4c4c4;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #03d542, #03d542), #c4c4c4;
+    background: #03d542;
     opacity: 0.1; }
   .card_fourth {
     left: 76%;
@@ -80,8 +77,7 @@ input {
   .card_fourth .card__number {
     color: #f25656; }
   .card_fourth .card__deco {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656;
+    background: #f25656;
     opacity: 0.1; }
   @media (max-width: 1000px) {
     .card {
