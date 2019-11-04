@@ -52,8 +52,7 @@ input {
   right: 4px;
   width: 64px;
   height: 4px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
+  background: #fcc304;
   border-radius: 2px; }
 
 .nav__item:first-child {
