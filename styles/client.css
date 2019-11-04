@@ -45,8 +45,8 @@ input {
     height: 124px;
     border-radius: 32px;
     left: calc(50% - 32px);
-    top: 102px;
-    overflow: hidden;
+    top: 90px;
+    overflow: visible;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
