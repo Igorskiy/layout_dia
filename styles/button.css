@@ -13,7 +13,8 @@ ul {
   margin: 0;
   font-family: "Muli", sans-serif;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  outline: none; }
 
 input {
   border: none;
@@ -39,5 +40,9 @@ input {
   @media (max-width: 1000px) {
     .button {
       display: block; } }
+  @media (max-width: 640px) {
+    .button {
+      width: 123px;
+      height: 28px; } }
 
 /*# sourceMappingURL=button.css.map */

@@ -1,0 +1,65 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 162px;
+  height: 64px;
+  background-color: #fcc304;
+  border-radius: 32px;
+  top: calc(50% - 42px);
+  left: -81px;
+  cursor: pointer; }
+  .slider__trigger_left, .slider__trigger_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    width: 81px;
+    height: 64px;
+    background-color: #fcc304;
+    border-radius: 32px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s; }
+    .slider__trigger_left:hover, .slider__trigger_right:hover {
+      background-color: #253757; }
+  @media (max-width: 1000px) {
+    .slider {
+      top: -64px;
+      left: calc(50% - 81px); } }
+
+/*# sourceMappingURL=slider.css.map */

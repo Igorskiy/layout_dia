@@ -13,7 +13,8 @@ ul {
   margin: 0;
   font-family: "Muli", sans-serif;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  outline: none; }
 
 input {
   border: none;
@@ -22,7 +23,10 @@ input {
 .service {
   padding: 0 25px; }
   .service__photo {
-    width: 160px; }
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px; }
   .service__title {
     font-size: 20px;
     line-height: 1.4;
@@ -37,7 +41,7 @@ input {
     .service__photo {
       display: block;
       margin: auto; } }
-  @media (max-width: 1024px) {
+  @media (max-width: 1360px) {
     .service__title {
       margin: 0; } }
 

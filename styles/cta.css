@@ -13,7 +13,8 @@ ul {
   margin: 0;
   font-family: "Muli", sans-serif;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  outline: none; }
 
 input {
   border: none;
@@ -54,6 +55,7 @@ input {
       height: 36px;
       margin-bottom: 20px; }
     .cta__button {
-      margin: auto; } }
+      margin: auto;
+      margin-top: 20px; } }
 
 /*# sourceMappingURL=cta.css.map */

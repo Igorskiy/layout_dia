@@ -13,41 +13,47 @@ ul {
   margin: 0;
   font-family: "Muli", sans-serif;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  outline: none; }
 
 input {
   border: none;
   outline: none; }
 
 .header {
-  background-image: url(../images/header/Bg-header.png);
+  position: relative;
+  background: linear-gradient(120deg, #56ccf2 73%, transparent 73%);
+  background-repeat: no-repeat;
   background-position: top left;
-  background-size: contain;
-  background-repeat: no-repeat; }
+  background-size: 100% 815px;
+  -o-object-fit: cover;
+     object-fit: cover; }
   .header__title {
-    text-align: center;
-    margin-top: 45px;
-    margin-left: 45px;
     font-weight: 900;
     font-size: 64px;
-    line-height: 1.5; }
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 22px; }
   .header__info {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 754px;
-    margin-left: 45px;
     font-size: 24px;
     line-height: 1.5;
     color: #fff; }
   .header__button {
+    margin: 0 auto;
     background-color: #fff;
     color: #253757;
-    margin-left: 85px;
     margin-top: 58px;
-    margin-bottom: 80px;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     .header__button:hover {
       background-color: #fcc304; }
+  @media (max-width: 1360px) {
+    .header {
+      background-size: 100% 720px; } }
   @media (max-width: 1000px) {
     .header {
       background: linear-gradient(45deg, #fff, #56ccf2); }
@@ -69,5 +75,25 @@ input {
         margin-right: auto;
         margin-top: 20px;
         margin-bottom: 20px; } }
+  @media (max-width: 640px) {
+    .header {
+      background-size: 100% 100%; }
+      .header__info {
+        width: 200px; } }
+
+.wrapper {
+  margin-left: 98px;
+  margin-right: 90px;
+  margin-top: 45px;
+  margin-bottom: 80px; }
+
+@media (max-width: 1360px) {
+  .wrapper {
+    margin-left: 0; } }
+
+@media (max-width: 1000px) {
+  .wrapper {
+    margin: auto;
+    margin-bottom: 120px; } }
 
 /*# sourceMappingURL=header.css.map */

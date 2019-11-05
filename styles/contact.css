@@ -13,7 +13,8 @@ ul {
   margin: 0;
   font-family: "Muli", sans-serif;
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  outline: none; }
 
 input {
   border: none;
@@ -36,38 +37,8 @@ input {
             flex: 0.5 1 auto;
     max-width: 600px; }
 
-.contact-us__title {
-  margin-bottom: 43px; }
-
-.contact-us__description {
-  font-weight: 800;
-  font-size: 13px;
-  line-height: 1.5;
-  letter-spacing: 2px;
-  color: #334563; }
-
-.contact-us__phone {
-  display: inline-block;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.5;
-  letter-spacing: 2px;
-  color: #56ccf2;
-  padding-bottom: 41px; }
-
-.contact-us__address {
-  display: inline-block;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.5;
-  letter-spacing: 2px;
-  color: #56ccf2;
-  text-transform: uppercase;
-  margin-bottom: 53px; }
-
-@media (max-width: 800px) {
-  .contact-us__tag {
-    margin-top: 20px; } }
+@media (max-width: 1000px) {
+  .contact {
+    display: block; } }
 
 /*# sourceMappingURL=contact.css.map */
