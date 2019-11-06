@@ -21,7 +21,7 @@ input {
   outline: none; }
 
 .section {
-  padding: 160px 80px; }
+  padding: 160px 227px; }
   .section_features {
     background-image: url(../images/features/backphoto.png);
     background-color: #56ccf2;
@@ -30,20 +30,18 @@ input {
     background-position: 100% 100%; }
   .section_cta {
     background-image: url(../images/other/cta_background.png);
-    background-size: cover; }
+    background-size: cover;
+    padding: 160px 80px; }
   .section_header {
-    padding-top: 48px;
-    padding-bottom: 0;
+    padding: 48px 127px 0;
     width: 1146px;
     margin: 0 auto; }
   .section_contact {
     padding-top: 86px;
-    padding-bottom: 0;
-    padding-left: 200px;
-    padding-right: 200px; }
+    padding-bottom: 0; }
   .section_footer {
     padding: 0 200px 83px; }
-  @media (max-width: 1360px) {
+  @media (max-width: 1400px) {
     .section {
       padding: 80px 20px; }
       .section_header {
@@ -67,9 +65,17 @@ input {
       text-align: center; }
     .section_contact {
       padding-left: 20px;
+      padding-right: 20px; }
+    .section_footer {
+      padding-left: 20px;
       padding-right: 20px; } }
   @media (max-width: 640px) {
-    .section_header {
-      max-width: 200px; } }
+    .section {
+      max-width: 640px;
+      margin: auto; }
+      .section_header {
+        max-width: 260px; }
+      .section_features {
+        max-width: 640px; } }
 
 /*# sourceMappingURL=section.css.map */

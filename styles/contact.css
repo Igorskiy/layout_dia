@@ -28,14 +28,13 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .contact__send-form {
     -webkit-box-flex: 0.5;
         -ms-flex: 0.5 1 auto;
-            flex: 0.5 1 auto;
-    max-width: 600px; }
+            flex: 0.5 1 auto; }
 
 @media (max-width: 1000px) {
   .contact {

@@ -64,7 +64,7 @@ input {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column; }
-  @media (max-width: 1360px) {
+  @media (max-width: 1400px) {
     .gallery {
       max-width: 800px; }
     .gallery__photo {
@@ -82,9 +82,11 @@ input {
         height: 335px; } }
   @media (max-width: 640px) {
     .gallery {
-      max-width: 200px; }
+      max-width: 260px; }
       .gallery__photo {
-        height: 112px; } }
+        height: 145px; }
+      .gallery__tag, .gallery__info {
+        display: none; } }
 
 .sm__elem {
   margin-top: 100px;

@@ -58,4 +58,12 @@ input {
       margin: auto;
       margin-top: 20px; } }
 
+@media (max-width: 640px) {
+  .cta__title {
+    font-size: 36px; }
+  .cta__info {
+    height: 72px;
+    width: 251.33333px;
+    font-size: 16px; } }
+
 /*# sourceMappingURL=cta.css.map */

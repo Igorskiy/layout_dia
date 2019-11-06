@@ -29,8 +29,15 @@ input {
   margin-bottom: 104px; }
 
 @media (max-width: 1000px) {
-  .send-form__button {
-    margin: auto; } }
+  .send-form {
+    display: inline-block;
+    text-align: center; }
+    .send-form__button {
+      margin: auto; } }
+
+@media (min-width: 1600px) {
+  .send-form__form {
+    width: 656px; } }
 
 .input {
   border-bottom: 1px solid #e1e1e1e1; }

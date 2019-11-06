@@ -54,5 +54,10 @@ input {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; } }
+  @media (max-width: 640px) {
+    .feature__logo {
+      width: 32px;
+      height: 32px;
+      margin-right: 12px; } }
 
 /*# sourceMappingURL=features-list.css.map */

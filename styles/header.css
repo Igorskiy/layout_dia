@@ -51,7 +51,7 @@ input {
     transition: background-color 0.3s; }
     .header__button:hover {
       background-color: #fcc304; }
-  @media (max-width: 1360px) {
+  @media (max-width: 1400px) {
     .header {
       background-size: 100% 720px; } }
   @media (max-width: 1000px) {
@@ -76,10 +76,8 @@ input {
         margin-top: 20px;
         margin-bottom: 20px; } }
   @media (max-width: 640px) {
-    .header {
-      background-size: 100% 100%; }
-      .header__info {
-        width: 200px; } }
+    .header__info {
+      width: 200px; } }
 
 .wrapper {
   margin-left: 98px;
@@ -87,7 +85,7 @@ input {
   margin-top: 45px;
   margin-bottom: 80px; }
 
-@media (max-width: 1360px) {
+@media (max-width: 1400px) {
   .wrapper {
     margin-left: 0; } }
 

@@ -21,7 +21,7 @@ input {
   outline: none; }
 
 .nav {
-  max-width: 1146px; }
+  max-width: 946px; }
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -59,7 +59,7 @@ input {
     margin-right: 50px; }
   .nav__item:last-child {
     margin-left: 72px; }
-  @media (max-width: 1360px) {
+  @media (max-width: 1400px) {
     .nav {
       max-width: 800px; } }
   @media (max-width: 1000px) {
