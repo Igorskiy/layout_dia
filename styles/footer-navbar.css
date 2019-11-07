@@ -49,7 +49,9 @@ input {
               align-items: center;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; } }
+              justify-content: center; }
+    .footer-navbar__nav-elem {
+      margin-bottom: 30px; } }
 
 @media (max-width: 845px) {
   .copyright {
@@ -64,6 +66,7 @@ input {
         -ms-flex-pack: center;
             justify-content: center;
     top: 95%;
-    left: 20%; } }
+    left: 20%;
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=footer-navbar.css.map */

@@ -30,7 +30,9 @@ input {
     background-position: 100% 100%; }
   .section_cta {
     background-image: url(../images/other/cta_background.png);
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 160px 80px; }
   .section_header {
     padding: 48px 127px 0;
@@ -43,39 +45,49 @@ input {
     padding: 0 200px 83px; }
   @media (max-width: 1400px) {
     .section {
-      padding: 80px 20px; }
+      padding: 80px 40px; }
       .section_header {
         padding-top: 48px;
         max-width: 800px; }
       .section_features {
-        padding-top: 0; }
+        padding-top: 0;
+        background-position: 130% 100%; }
       .section_contact {
-        padding-left: 100px;
-        padding-right: 100px; }
+        padding-left: 40px;
+        padding-right: 40px; }
       .section_footer {
-        padding-left: 100px;
-        padding-right: 100px; } }
+        padding-left: 40px;
+        padding-right: 40px; } }
   @media (max-width: 1000px) {
     .section_header {
+      padding-left: 0;
+      padding-right: 0;
       padding-top: 48px;
       max-width: 600px; }
     .section_features {
       background-image: none; }
     .section_testimonials {
       text-align: center; }
+    .section_cta {
+      background-image: none; }
     .section_contact {
-      padding-left: 20px;
-      padding-right: 20px; }
+      padding-left: 40px;
+      padding-right: 40px; }
     .section_footer {
-      padding-left: 20px;
-      padding-right: 20px; } }
+      padding-left: 40px;
+      padding-right: 40px; } }
   @media (max-width: 640px) {
     .section {
+      padding: 80px 10px;
       max-width: 640px;
       margin: auto; }
       .section_header {
-        max-width: 260px; }
+        max-width: 300px; }
       .section_features {
         max-width: 640px; } }
+  @media (min-width: 2000px) {
+    .section {
+      padding-left: 20%;
+      padding-right: 20%; } }
 
 /*# sourceMappingURL=section.css.map */

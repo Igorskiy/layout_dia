@@ -68,6 +68,7 @@ input {
     .gallery {
       max-width: 800px; }
     .gallery__photo {
+      width: 100%;
       height: 446px; }
     .gallery__sm {
       top: 0; } }
@@ -78,13 +79,16 @@ input {
         font-size: 12px; }
       .gallery__sm {
         display: none; }
-      .gallery_photo {
-        height: 335px; } }
+      .gallery__photo {
+        width: 100%;
+        height: 335px;
+        -o-object-fit: cover;
+           object-fit: cover; } }
   @media (max-width: 640px) {
     .gallery {
-      max-width: 260px; }
+      max-width: 300px; }
       .gallery__photo {
-        height: 145px; }
+        height: 163px; }
       .gallery__tag, .gallery__info {
         display: none; } }
 

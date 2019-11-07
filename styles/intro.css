@@ -37,6 +37,7 @@ input {
     .intro {
       width: 250px;
       left: calc(50% - 123.66667px);
-      text-align: center; } }
+      text-align: left;
+      font-size: 18px; } }
 
 /*# sourceMappingURL=intro.css.map */

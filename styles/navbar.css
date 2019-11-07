@@ -75,6 +75,8 @@ input {
       -webkit-box-direction: normal;
           -ms-flex-flow: column;
               flex-flow: column; }
+    .nav__item {
+      margin-bottom: 30px; }
     .nav__item:first-child {
       margin-left: 0; } }
 

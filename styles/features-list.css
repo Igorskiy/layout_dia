@@ -55,9 +55,15 @@ input {
           -ms-flex-pack: center;
               justify-content: center; } }
   @media (max-width: 640px) {
-    .feature__logo {
-      width: 32px;
-      height: 32px;
-      margin-right: 12px; } }
+    .feature {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column;
+              flex-flow: column; }
+      .feature__logo {
+        display: block;
+        margin-bottom: 20px; }
+      .feature__info {
+        display: block; } }
 
 /*# sourceMappingURL=features-list.css.map */

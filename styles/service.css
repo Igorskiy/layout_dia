@@ -20,31 +20,32 @@ input {
   border: none;
   outline: none; }
 
-.service__photo {
-  display: block;
-  width: 160px;
-  height: 160px;
-  border-radius: 80px; }
-
-.service__title {
-  font-size: 20px;
-  line-height: 1.4;
-  margin-top: 64px;
-  margin-bottom: 32px;
-  font-weight: 900;
-  color: #253757; }
-
-.service__descrtiption {
-  font-size: 16px;
-  color: #334563; }
-
-@media (max-width: 1000px) {
+.service {
+  margin-bottom: 100px; }
   .service__photo {
     display: block;
-    margin: auto; } }
-
-@media (max-width: 1400px) {
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    margin-bottom: 30px; }
   .service__title {
-    margin: 0; } }
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    color: #253757; }
+  .service__descrtiption {
+    font-size: 16px;
+    color: #334563; }
+  @media (max-width: 1000px) {
+    .service__photo {
+      display: block;
+      margin: auto;
+      margin-bottom: 30px; } }
+  @media (max-width: 1400px) {
+    .service__title {
+      margin: 0; } }
 
 /*# sourceMappingURL=service.css.map */

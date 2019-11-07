@@ -24,7 +24,7 @@ input {
   margin-bottom: 69px; }
 
 .features__tag {
-  margin-top: 38px;
+  padding-top: 38px;
   color: #fff; }
 
 @media (max-width: 1000px) {

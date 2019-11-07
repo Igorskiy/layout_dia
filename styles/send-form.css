@@ -30,10 +30,12 @@ input {
 
 @media (max-width: 1000px) {
   .send-form {
-    display: inline-block;
+    display: block;
     text-align: center; }
     .send-form__button {
-      margin: auto; } }
+      margin: auto; }
+    .send-form__tag {
+      margin-top: 80px; } }
 
 @media (min-width: 1600px) {
   .send-form__form {

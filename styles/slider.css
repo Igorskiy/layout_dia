@@ -64,7 +64,6 @@ input {
   @media (max-width: 640px) {
     .slider {
       -webkit-transform: scale(0.5);
-              transform: scale(0.5);
-      top: -33%; } }
+              transform: scale(0.5); } }
 
 /*# sourceMappingURL=slider.css.map */
